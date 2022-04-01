@@ -26,7 +26,7 @@ const Movies = ({ title, movies }) => {
         <Text className="searchTitle">{title}</Text>
 
         <Flex className="row" mt={marginTop}>
-          {movies.map(movie => (
+          {movies?.map(movie => (
             <Row key={movie.imdbID} movie={movie} />
           ))}
         </Flex>

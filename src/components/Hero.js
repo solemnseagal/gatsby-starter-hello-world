@@ -33,12 +33,6 @@ const Hero = () => {
     lg: "left",
   })
 
-  const headerSize = useBreakpointValue({
-    base: "xl",
-    md: "2xl",
-    lg: "2xl",
-  })
-
   const heightSize = useBreakpointValue({
     base: "257",
     md: "550px",

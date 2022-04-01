@@ -1,12 +1,5 @@
 import React from "react"
-import {
-  Flex,
-  Box,
-  Text,
-  Center,
-  useBreakpointValue,
-  extendTheme,
-} from "@chakra-ui/react"
+import { Flex, Box, Text, useBreakpointValue } from "@chakra-ui/react"
 // import { color } from "@chakra-ui/react"
 
 const Navbar = () => {
