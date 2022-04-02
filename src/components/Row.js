@@ -18,6 +18,7 @@ const Row = ({ movie }) => {
           flexWrap="wrap"
           width="100%"
           height="100%"
+          rounded="12px"
           textAlign="center"
         >
           <Text color="white" className="searchTitle">

@@ -4,6 +4,7 @@ import RectangleD from "../assets/images/RectangleD.jpg"
 import Rectangle5min from "../assets/images/Rectangle5min.jpg"
 import Rectanglesm from "../assets/images/Rectanglesm.jpg"
 import { Box, Flex, Heading, useBreakpointValue } from "@chakra-ui/react"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => {
   const customBg = useBreakpointValue({
@@ -73,6 +74,8 @@ const Hero = () => {
           </Heading>
         </Box>
       </Flex>
+
+      {/* <StaticImage src={customBg} /> */}
     </div>
   )
 }

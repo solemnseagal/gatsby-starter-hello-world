@@ -42,9 +42,11 @@
 .poster {
   position: relative;
   object-fit: contain;
+
   width: 100%;
   aspect-ratio: 1/1;
-  display: inline-block;
+  display: inline;
+  /* overflow: hidden; */
   margin-right: 13px;
 }
 
