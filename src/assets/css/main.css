@@ -40,9 +40,19 @@
 }
 
 .poster {
+  position: relative;
   object-fit: contain;
   width: 100%;
   aspect-ratio: 1/1;
   display: inline-block;
   margin-right: 13px;
+}
+
+.textBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
 }

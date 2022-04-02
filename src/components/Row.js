@@ -10,10 +10,19 @@ const Row = ({ movie }) => {
         w={[200, 300, 300]}
         h={[200, 300, 300]}
         rounded="12px"
-        background="black"
+        background={movie.Poster === "N/A" ? "black" : `url("${movie.Poster}")`}
       >
-        <Center padding="20px" flexWrap="wrap" width="100%" height="100%">
-          <Text color="white">{movie.Title}</Text>
+        <Center
+          className="textBg"
+          padding="30px"
+          flexWrap="wrap"
+          width="100%"
+          height="100%"
+          textAlign="center"
+        >
+          <Text color="white" className="searchTitle">
+            {movie.Title}
+          </Text>
         </Center>
       </Box>
     </>
